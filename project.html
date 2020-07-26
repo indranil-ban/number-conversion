@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <title>Number Convert</title>
+    <link rel="stylesheet" href="styles/project.css">
+    <style>
+        body {
+            background-image: url(images/pure-black-wallpaper1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div>
+            <header>
+                <h1 class="display-1">B<sub>L</sub>ACK<sup>B</sup>OA<sub>R</sub>D</h1>
+            </header>
+        </div>
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img class="img-fluid" src="images/113128-01-01.png" alt="Derivative"
+                        style="width:600px;height:400px">
+                </div>
+                <div class="flip-box-back">
+                    <div class="container">
+                        <div class="sel">
+                            <select name="users" id="users">
+                                <option value="0">From:</option>
+                                <option value="Binary">Binary</option>
+                                <option value="Decimal">Decimal</option>
+                                <option value="Octal">Octal</option>
+                                <option value="Hexadecimal">Hexadecimal</option>
+                            </select>
+                        </div>
+                        <div class="del">
+                            <select name="users1" id="users1">
+                                <option value="0">To:</option>
+                                <option value="Binary">Binary</option>
+                                <option value="Decimal">Decimal</option>
+                                <option value="Octal">Octal</option>
+                                <option value="Hexadecimal">Hexadecimal</option>
+                            </select>
+                        </div>
+                        <div>
+                            <input type="text" id="a" name="Give an input" placeholder="Give an input"><br>
+                        </div>
+                        <div>
+                            <p class="text-break display-4" id="u"></p>
+                        </div>
+                        <div class="bt">
+                            <button onclick="rs1()" type="button" class="btn btn-dark">CONVERT</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <script src="scripts/project.js"></script>
+</body>
+
+
+</html>
